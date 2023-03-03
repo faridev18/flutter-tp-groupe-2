@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1042888495915",
+    "project_id": "kamiblog-992ad",
+    "storage_bucket": "kamiblog-992ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042888495915:android:ca7b71b5aeb96c928ceb6e",
+        "android_client_info": {
+          "package_name": "bj.kami.blog.blog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042888495915-mrc93kc3nop4ca2pu3cjgnpor6mrg6of.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bj.kami.blog.blog",
+            "certificate_hash": "17346a80c22747a9db669ee673e07ab4b770e615"
+          }
+        },
+        {
+          "client_id": "1042888495915-05j4kpl26c7lskird924o82l3g67i4hf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVRLRQdQSLOQ4v7g2yjcDfIjCc5dhK9kg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042888495915-05j4kpl26c7lskird924o82l3g67i4hf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
