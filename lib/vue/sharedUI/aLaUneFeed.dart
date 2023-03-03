@@ -63,26 +63,17 @@ class BilletFeed extends StatelessWidget {
                       )),
                 ),
                 Hero(
-                  tag: billet!.billetTitre!,
-                  child: InkWell(
-                    onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) =>
-                                  PhotoDetail(url: billet!.billetUrlImg!)));
-                    },
-                    child: Container(
-                      height: MediaQuery.of(context).size.width * 0.70,
-                      margin: const EdgeInsets.symmetric(horizontal: 8.0),
-                      decoration: BoxDecoration(
-                        borderRadius:
-                            const BorderRadius.all(Radius.circular(8.0)),
-                        color: Colors.grey,
-                        image: DecorationImage(
-                            image: NetworkImage(billet!.billetUrlImg!),
-                            fit: BoxFit.cover),
-                      ),
+                  tag: billet!.billetUrlImg!,
+                  child: Container(
+                    height: MediaQuery.of(context).size.width * 0.70,
+                    margin: const EdgeInsets.symmetric(horizontal: 8.0),
+                    decoration: BoxDecoration(
+                      borderRadius:
+                          const BorderRadius.all(Radius.circular(8.0)),
+                      color: Colors.grey,
+                      image: DecorationImage(
+                          image: NetworkImage(billet!.billetUrlImg!),
+                          fit: BoxFit.cover),
                     ),
                   ),
                 ),
