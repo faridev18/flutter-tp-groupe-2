@@ -14,8 +14,8 @@ Les administrateurs publient les actualités sur l'informatique, la sécurité, 
   - Installer android Studio ou Visual Studio Code cliquer sur : https://developer.android.com/studio
   - Cloner le projet et ouvrir avec un IDE Android de préférence  android Studio ou vous pouvez 
     installer Visual Studio Code ou  Xcode pour ceux qui sont sur Mac avec les plugins flutter, dart.
-  - Installer (Get Package) tous les packages (Cela est généralement proposer lors de l'ouverture du projet ou aller dans le fichier 
-    pubspec.yaml et cliquer get package
+  - Installer (Get Package, pub get) tous les packages (Cela est généralement proposer lors de l'ouverture du projet ou aller dans le fichier 
+    pubspec.yaml et cliquer get package ou pub get selon le cas 
   - Compiler le projet (le fichier main).
   
   
