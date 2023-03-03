@@ -145,8 +145,6 @@ class _AjoutState extends State<Ajout> {
       if (image == null) {
         showNotification(context, "Insérez une image");
       } else {
-        showNotification(context, "Chargement...");
-        Navigator.of(context).pop();
         DataBaseServices db = DataBaseServices();
         String _carUrlImag = await db.uploadFile(File(image));
         db.addBillet(Billet(
@@ -156,6 +154,8 @@ class _AjoutState extends State<Ajout> {
           billetUserID: user!.uid,
           billetUserName: user!.displayName,
         ));
+        showNotification(context, "Chargement...");
+        Navigator.of(context).pop();
       }
     }
   }
