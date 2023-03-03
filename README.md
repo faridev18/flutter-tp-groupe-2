@@ -1,16 +1,26 @@
 # blog
 
-Blog sur la science informatique
+iBLOG est un Blog 
+On y publie les informations les plus pertinentes sur les TIC et NTIC en général et sur l'informatique en particulier.
+Les administrateurs publient les actulités sur l'informatique, la sécurité, le réseau, les innovations et tout.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+  Le back-end de l'appliaction est géré par Firebase.
+  Pour l'installer :
+  
+  - Assurez-vous de disposer de flutter avec SDK installé
+  - Pour installer et installer Flutter/ SDK cliquer sur : https://docs.flutter.dev/get-started/install
+  - Installer android Studio ou Visual Studio Code cliquer sur : https://developer.android.com/studio
+  - Cloner le projet et ouvrir avec un éditer de code Android de préférence  android Studio ou Visual Studio Code ou 
+    Icode pour ceux qui sont sur Mac
+  - Installer (Get Package) tous les packages (Cela est généralement proposer lors de l'ouverture du projet ou aller dans le fichier 
+    pubspec.yaml et cliquer get package
+  - Compiler le projet (le fichier main).
+  
+  
+  Pour se connecter en tant que administrateur, 
+  - ajouter votre email dans le fichier  addSectionBar.dart
+  
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
