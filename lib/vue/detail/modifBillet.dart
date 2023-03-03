@@ -193,10 +193,6 @@ class _ModifierBilletState extends State<ModifierBillet> {
                     )),
                 ElevatedButton(
                   onPressed: () async {
-                    Navigator.pop(context);
-
-                    showNotification(context, "Chargement...");
-
                     DataBaseServices db = DataBaseServices();
                     String _carUrlImag;
                     Billet bil = Billet();
@@ -213,6 +209,10 @@ class _ModifierBilletState extends State<ModifierBillet> {
                     bil.billetDetail = _detailArticle;
 
                     db.updateBillet(bil);
+                    Navigator.pop(context);
+                    Navigator.pop(context);
+                    Navigator.pop(context);
+                    showNotification(context, "Chargement...");
                   },
                   style: TextButton.styleFrom(backgroundColor: Colors.red),
                   child: const Text("MODIFIER"),
