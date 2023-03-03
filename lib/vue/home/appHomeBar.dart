@@ -8,9 +8,13 @@ class HomeAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SliverAppBar(
-      title: const Text('iBLOG'),
       floating: true,
       backgroundColor: const Color.fromRGBO(89, 107, 200, 0.7),
+      title: const Image(
+        image: AssetImage('images/logo.png'),
+        height: 60.0,
+        width: 60.0,
+      ),
       actions: [
         Padding(
           padding: const EdgeInsets.only(right: 8.0),
@@ -27,3 +31,4 @@ class HomeAppBar extends StatelessWidget {
     );
   }
 }
+
