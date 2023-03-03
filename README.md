@@ -2,7 +2,7 @@
 
 iBLOG est un Blog 
 On y publie les informations les plus pertinentes sur les TIC et NTIC en général et sur l'informatique en particulier.
-Les administrateurs publient les actulités sur l'informatique, la sécurité, le réseau, les innovations et tout.
+Les administrateurs publient les actualités sur l'informatique, la sécurité, le réseau, les innovations et tout ce qui a rapport avec les TICs et NTICs.
 
 ## Getting Started
 
